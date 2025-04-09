@@ -14,6 +14,7 @@ const clearDB = async () => {
 // En el package.json, en la parte de scripts usamos pretest 
 // para que antes de ejecutar un test se mande a llamar ts-node ./src/data --clear
 // De modo que cada vez que hagamos un test con npm test, borramos la base de datos
-if(process.argv[2] === "--clear"){
-    clearDB()
-}
+
+// if(process.argv[2] === "--clear"){
+//     clearDB()
+// }
